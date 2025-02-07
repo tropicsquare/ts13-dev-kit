@@ -9998,7 +9998,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 198.12 175.26 0)
+		(at 210.82 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10006,7 +10006,7 @@
 		(dnp no)
 		(uuid "59ff8578-f943-454d-aff4-62750b3b5105")
 		(property "Reference" "FID1"
-			(at 198.12 170.18 0)
+			(at 210.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10014,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 198.12 172.085 0)
+			(at 210.82 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +10022,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 198.12 175.26 0)
+			(at 210.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +10031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 175.26 0)
+			(at 210.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,7 +10040,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 198.12 175.26 0)
+			(at 210.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,6 +12308,76 @@
 			(project "dev_kit"
 				(path "/d25f56b5-e9f1-4895-9b97-d242a17384a0"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tropic:logo")
+		(at 199.39 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a98f03c4-90f8-41f6-8d9e-492e90802012")
+		(property "Reference" "G2"
+			(at 199.39 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "logo"
+			(at 199.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ts_logo:tropicsquare_logo_7"
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ts13_dev_kit"
+				(path "/d25f56b5-e9f1-4895-9b97-d242a17384a0"
+					(reference "G2")
 					(unit 1)
 				)
 			)
