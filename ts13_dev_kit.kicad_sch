@@ -13461,7 +13461,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "279-CRGCQ0805F10R"
+		(property "OC_MOUSER" "RC0805JR-071K5L"
 			(at 66.04 116.84 0)
 			(effects
 				(font
