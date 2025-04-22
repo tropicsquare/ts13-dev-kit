@@ -5305,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 144.78) (xy 113.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4714e5a3-5ccc-4490-ba4e-c4e43d9ac69b")
+	)
+	(wire
+		(pts
 			(xy 132.08 49.53) (xy 132.08 45.72)
 		)
 		(stroke
@@ -5545,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 154.94) (xy 76.2 154.94)
+			(xy 52.07 154.94) (xy 58.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5625,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 154.94) (xy 107.95 154.94)
+			(xy 83.82 154.94) (xy 90.17 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6215,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 88.9 142.24)
+			(xy 71.12 129.54) (xy 71.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6322,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "d90f2f8e-60e1-4f89-9c41-a826b3fabdff")
+	)
+	(wire
+		(pts
+			(xy 113.03 142.24) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db31417d-ff41-4d91-af80-149921bd36b9")
 	)
 	(wire
 		(pts
@@ -6584,7 +6604,7 @@
 		(uuid "fcf26bc1-0b79-4b9c-b193-0edc659d68d7")
 	)
 	(label "USB_N"
-		(at 69.85 154.94 0)
+		(at 52.07 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6624,7 +6644,7 @@
 		(uuid "40af3f95-715a-435a-baa3-6479c4b06624")
 	)
 	(label "USB_P"
-		(at 107.95 154.94 180)
+		(at 90.17 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6764,7 +6784,7 @@
 		(uuid "ba1813c3-cb75-48bc-bb6a-7a760660c02c")
 	)
 	(label "USB_PWR_5V"
-		(at 88.9 129.54 270)
+		(at 71.12 129.54 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12245,6 +12265,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 113.03 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4898532-3aa4-47c9-90ca-8df3f6d870b5")
+		(property "Reference" "C14"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7/16V"
+			(at 114.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 113.9952 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "187-CL21A475KAQNNNE"
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd35c92-7744-47c1-bdac-4f4b22fb7d69")
+		)
+		(pin "2"
+			(uuid "85f63193-6ab6-4434-b1eb-c82686b6209c")
+		)
+		(instances
+			(project "ts13a_dev_kit"
+				(path "/d25f56b5-e9f1-4895-9b97-d242a17384a0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "common:TestPoint")
 		(at 111.76 109.22 90)
 		(unit 1)
@@ -12320,7 +12427,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
-		(at 88.9 154.94 0)
+		(at 71.12 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12328,7 +12435,7 @@
 		(dnp no)
 		(uuid "ba845dbe-0c85-4623-8ca2-f3e3eb0325d6")
 		(property "Reference" "D2"
-			(at 91.694 146.304 0)
+			(at 73.914 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12443,7 @@
 			)
 		)
 		(property "Value" "PRTR5V0U2X"
-			(at 97.028 164.338 0)
+			(at 79.248 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12451,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 90.424 154.94 0)
+			(at 72.644 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12460,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
-			(at 90.424 154.94 0)
+			(at 72.644 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 154.94 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12478,7 @@
 			)
 		)
 		(property "OC_MOUSER" "771-PRTR5V0U2X-T/R"
-			(at 88.9 154.94 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,7 +12487,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 88.9 154.94 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,7 +12600,7 @@
 	)
 	(symbol
 		(lib_id "common:GND")
-		(at 88.9 167.64 0)
+		(at 71.12 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12501,7 +12608,7 @@
 		(dnp no)
 		(uuid "c998577f-8c37-4d9a-9436-accd574e5878")
 		(property "Reference" "#PWR029"
-			(at 88.9 173.99 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 170.18 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12519,7 +12626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 167.64 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12528,7 +12635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 167.64 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 167.64 0)
+			(at 71.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13792,6 +13899,72 @@
 			(project "ts13_dev_kit"
 				(path "/d25f56b5-e9f1-4895-9b97-d242a17384a0"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:GND")
+		(at 113.03 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f34d9485-0757-4f6b-bd0c-280cf4e773b6")
+		(property "Reference" "#PWR017"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e53940-7c81-44f7-b5f3-e19d89902d60")
+		)
+		(instances
+			(project "ts13a_dev_kit"
+				(path "/d25f56b5-e9f1-4895-9b97-d242a17384a0"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

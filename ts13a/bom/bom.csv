@@ -1,6 +1,6 @@
 "Reference","Value","Footprint","Qty","DNP","OC_MOUSER"
 "C1,C2,C3","100n/603","Capacitor_SMD:C_0603_1608Metric","3","","80-C0603104K3RAC7411 "
-"C4,C7","4u7/16V","Capacitor_SMD:C_0805_2012Metric","2","","187-CL21A475KAQNNNE"
+"C4,C7,C14","4u7/16V","Capacitor_SMD:C_0805_2012Metric","3","","187-CL21A475KAQNNNE"
 "C5,C6,C9,C13","100n","Capacitor_SMD:C_0402_1005Metric","4","","80-C0402C104M4RECTU"
 "C8,C10","10n","Capacitor_SMD:C_0402_1005Metric","2","","80-C0402C103M4R"
 "C11,C12","10p","Capacitor_SMD:C_0402_1005Metric","2","","80-C0402C100J5G"
