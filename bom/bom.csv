@@ -18,5 +18,5 @@
 "R9,R10","10R","Resistor_SMD:R_0402_1005Metric","2","","603-RC0402DR-0710RL"
 "R11","1k5","Resistor_SMD:R_0402_1005Metric","1","","603-RE0402DRE071K5L"
 "R12","220R","Resistor_SMD:R_0402_1005Metric","1","","652-CR0402JW-221GLF"
-"SW1","tact switch","Button_Switch_SMD:SW_SPST_FSMSM","1","","611-PTS636SMG25JSMTR"
+"SW1","tact switch","Button_Switch_SMD:SW_SPST_FSMSM","1","","611-PTS636SM25SMTRLF"
 "X1","8MHz","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","1",""," 729-FL0800008Q"

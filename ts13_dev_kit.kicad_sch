@@ -6986,7 +6986,7 @@
 		)
 		(uuid "5fa90715-919f-4fde-8927-cbc5e053a0d2")
 	)
-	(label "BOOT1"
+	(label "BOOT0"
 		(at 106.68 86.36 0)
 		(effects
 			(font
@@ -13528,7 +13528,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "611-PTS636SMG25JSMTR"
+		(property "OC_MOUSER" "611-PTS636SM25SMTRLF"
 			(at 99.06 107.95 0)
 			(effects
 				(font
