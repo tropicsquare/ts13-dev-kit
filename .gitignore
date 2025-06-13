@@ -2,4 +2,4 @@ ts13_dev_kit-backups/*
 ts13_dev_kit.kicad_prl
 fp-info-cache
 *.lck
-
+*.swp

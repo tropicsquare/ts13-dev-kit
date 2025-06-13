@@ -1,15 +1,37 @@
-# TS13 minimal development kit
+# About
 
-KiCad project.
-Minimal TROPIC01 development kit. USB-C interface. STM32 MCU as USB/SPI converter.
-See ts-usb-spi-converter.git README.md for usage.
+TS13 – TROPIC01 USB Development Kit
+A KiCad-based hardware project providing a minimal development platform for the TROPIC01 chip.
 
-## Manufacturing instructions:
+The TS13 features a USB-C interface and an STM32 microcontroller acting as a USB-to-SPI converter,
+enabling straightforward host communication with TROPIC01.
+
+For firmware details and usage instructions, see the `ts-usb-dev-kit-fw.git` README.
+
+# Project structure
+
+`*.kicad_pro` - KiCad project file
+`*.kicad_sch` - Schematic file
+`*.kicad_pcb` - PCB layout file
+`./out/` - Generated gerber data for PCB manufacturing
+`./bom/` - Bill of materials, including order codes and interactive BOM
+`./img/` - Images (PCB renders)
+`*_schematics.pdf` - Exported schematic diagrams (latest version)
+
+# Manufacturing instructions
+
+## Assembly
+
+There are no any special requirements for C and R components.
+Where not specified the R tolerance is 5% and C 20%.
+
+## PCB
 
   Number of cu layers: 2 \
   Board Thickness: 1.0 \
   Core: FR4 \
   Size: 20 x 46 mm \
+  Mask: Blue \
   Silkscreen: Yes (TOP and BOTTOM)
 
 
